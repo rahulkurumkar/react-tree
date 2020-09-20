@@ -1,0 +1,21 @@
+li {
+	margin: 15px;
+	box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+}
+
+.caret {
+	cursor: pointer;
+	user-select: none;
+}
+
+.caret::before {
+	content: '\25B6';
+	color: black;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.caret-down::before {
+	transform: rotate(90deg);
+}
